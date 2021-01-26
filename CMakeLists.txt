@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.14)
 project(LED_RTOS_STM32F4)
 
 enable_language(C ASM)
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS OFF)
 
