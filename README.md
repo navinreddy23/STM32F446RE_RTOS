@@ -5,7 +5,7 @@
 `ninja`
 
 ## Make build
-`cmake  -DCMAKE_TOOLCHAIN_FILE=../arm-none-eabi-gcc.cmake -DCMAKE_BUILD_TYPE=Debug ..`
+`cmake  -DCMAKE_TOOLCHAIN_FILE=../cmake/arm-none-eabi-gcc.cmake -DCMAKE_BUILD_TYPE=Debug ..`
 
 `make`
 
@@ -13,7 +13,7 @@
 
 Note: Generate from the root directory (This will include the source files)
 
-`cmake -G "Eclipse CDT4 - Ninja" -DCMAKE_ECLIPSE_VERSION=4.11.0 -DCMAKE_TOOLCHAIN_FILE=./arm-none-eabi-gcc.cmake -DCMAKE_BUILD_TYPE=Debug ./`
+`cmake -G "Eclipse CDT4 - Ninja" -DCMAKE_ECLIPSE_VERSION=4.11.0 -DCMAKE_TOOLCHAIN_FILE=./cmake/arm-none-eabi-gcc.cmake -DCMAKE_BUILD_TYPE=Debug ./`
 
 See the folder ScreenShots as a reference for adding a Debugger. This projected was tested with ST-LINKv2, arm-none-eabi-gdb, and openOCD.
 

@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.14)
+
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR ARM)
 
